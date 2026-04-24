@@ -1,0 +1,3 @@
+# Este archivo es el que me dice lo que Git va a ignorar
+# Hay archivos que no se pueden publicar, por ejemplo
+node_modules
