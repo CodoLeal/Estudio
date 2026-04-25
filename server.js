@@ -29,6 +29,7 @@ app.use(express.static('.')); // Sirve archivos estáticos (CSS, imagenes, etc.)
 app.get('/', (req,res) => {
     res.sendFile(__dirname+'/index.html')
 });
+
 // .get es el metodo
 // '/' es la ruta
 // req es lo que llega
